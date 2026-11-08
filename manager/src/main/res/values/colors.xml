@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="notification">#3F51B5</color>
+
+    <color name="app_color_light">#3F51B5</color>
+    <color name="app_color_dark">#B1B8DF</color>
+
+    <!--
+      The switch widget draws its own card, because it is laid over a wallpaper and inside a
+      launcher rather than in this app's theme. The colours therefore come in two sets, resolved by
+      the configuration the launcher inflates with: this one is the light home screen, and
+      values-night has the dark one. A widget that is always dark sits wrong on a light launcher.
+    -->
+    <color name="widget_background">#F2FFFFFF</color>
+    <color name="widget_text">#DE000000</color>
+    <color name="widget_text_dim">#99000000</color>
+
+    <!-- The icon is a bitmap drawn in white, so its colour is a tint: dark marks on the light
+         card, and the same white on the dark one. -->
+    <color name="widget_icon_tint">#DE000000</color>
+</resources>

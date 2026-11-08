@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- The same three surfaces on a dark home screen; see values/colors.xml. -->
+    <color name="widget_background">#E61C1B1F</color>
+    <color name="widget_text">#FFFFFFFF</color>
+    <color name="widget_text_dim">#B3FFFFFF</color>
+
+    <color name="widget_icon_tint">#FFFFFFFF</color>
+</resources>

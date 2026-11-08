@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- The switch at its smallest: the mark alone, which is what a widget shrunk to one cell has room
+     for. The state is still readable, because the icon is dimmed when the feature is off. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_firewall_background"
+    android:padding="8dp">
+
+    <ImageView
+        android:id="@+id/widget_icon"
+        android:layout_width="28dp"
+        android:tint="@color/widget_icon_tint"
+        android:layout_height="28dp"
+        android:layout_gravity="center"
+        android:contentDescription="@null" />
+</FrameLayout>

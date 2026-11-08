@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  One row by default, down to one cell: the card is what a widget with room shows, and the icon
+  alone is what it becomes when it is shrunk. minWidth and minHeight only decide how big a new
+  widget comes out; minResizeWidth and minResizeHeight are the floor a launcher will let it go to,
+  which is why they are allowed to be a cell - the layout switches to the small one there.
+
+  Nothing updates on a timer: the state is read when the widget is drawn and when it is clicked,
+  which is every time the answer can have changed in a way this app would have been told about.
+-->
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="@string/lab_widget_description"
+    android:initialLayout="@layout/widget_lab_switch"
+    android:minWidth="110dp"
+    android:minHeight="46dp"
+    android:minResizeWidth="40dp"
+    android:minResizeHeight="40dp"
+    android:previewLayout="@layout/widget_lab_switch"
+    android:resizeMode="horizontal|vertical"
+    android:targetCellWidth="2"
+    android:targetCellHeight="1"
+    android:updatePeriodMillis="0"
+    android:widgetCategory="home_screen" />
