@@ -1,4 +1,0 @@
-[submodule "api"]
-	path = api
-	url = https://github.com/rushiranpise/Shizuku-API
-	branch = master
